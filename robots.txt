@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://umkmdesalaemanta-commits.github.io/umkm-desa-laemanta/sitemap.xml
