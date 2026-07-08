@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Produk UMKM Desa Laemanta</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="page-header">
+
+<nav>
+
+<div class="logo">
+
+<img src="img/logo-untad.png">
+
+<div>
+
+<h2>UMKM</h2>
+
+<span>Desa Laemanta</span>
+
+</div>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Beranda</a></li>
+
+<li><a class="active"
+href="produk.html">Produk</a></li>
+
+<li><a href="tentang.html">Tentang</a></li>
+
+<li><a href="galeri.html">Galeri</a></li>
+
+<li><a href="kontak.html">Kontak</a></li>
+
+</ul>
+
+</nav>
+
+<div class="page-title">
+
+<h1>Produk Desa Laemanta</h1>
+
+<p>
+
+Temukan berbagai produk lokal dan
+produk UMKM masyarakat Desa
+Laemanta.
+
+</p>
+
+</div>
+
+</header>
+
+<!-- ================= SEARCH ================= -->
+
+<section>
+
+<div class="container">
+
+<div class="search-area">
+
+<input
+
+type="text"
+
+id="searchInput"
+
+placeholder="Cari produk..."
+
+>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PRODUK LOKAL ================= -->
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+🌴 Produk Lokal
+
+</h2>
+
+<p>
+
+Produk unggulan yang menjadi
+potensi Desa Laemanta.
+
+</p>
+
+</div>
+
+<div class="product-grid">
+
+<div class="product-card">
+
+<img
+src="img/gula-merah.png">
+
+<div class="product-content">
+
+<span class="kategori">
+
+Produk Lokal
+
+</span>
+
+<h3>
+
+Gula Merah Aren
+
+</h3>
+
+<p>
+
+Gula merah yang dibuat dari nira
+aren pilihan menggunakan cara
+tradisional sehingga menghasilkan
+rasa yang khas dan alami.
+
+</p>
+
+<div class="harga">
+
+Rp25.000
+
+</div>
+
+<div class="produk-button">
+
+<button>
+
+</button>
+
+<a
+href="#"
+class="btn">
+
+Pesan
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= UMKM ================= -->
+
+<section class="preview">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+🛒 Produk UMKM
+
+</h2>
+
+<p>
+
+Berbagai produk yang dijual oleh
+pelaku UMKM Desa Laemanta.
+
+</p>
+
+</div>
+
+<div
+
+class="product-grid"
+
+id="productContainer">
+<!-- Produk UMKM akan ditampilkan oleh JavaScript -->
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= MODAL DETAIL ================= -->
+
+<div class="modal" id="productModal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeModal()">&times;</span>
+
+        <img id="modalImage" src="" alt="">
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalCategory"></p>
+
+        <p id="modalDesc"></p>
+
+        <h3 id="modalPrice"></h3>
+
+        <a
+            id="modalWhatsapp"
+            class="btn"
+            target="_blank">
+
+            Pesan via WhatsApp
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="container">
+
+<p>
+
+© 2026 UMKM Desa Laemanta
+
+<br>
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="js/produk.js"></script>
+
+</body>
+
+</html>
