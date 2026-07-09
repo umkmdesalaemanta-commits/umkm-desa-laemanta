@@ -31,7 +31,7 @@ const products = [
     harga:"Rp5.000/3 pcs",
     gambar:"img/Donat-Panada.png",
     deskripsi:"Menjual donat, panada & risol dengan varian rasa dan toping.",
-    wa:"6281234567890"
+    wa:"62895405125016"
 },
 
 {
@@ -39,8 +39,8 @@ const products = [
     nama:"Laundry",
     kategori:"produk umkm",
     harga:"Rp5.000/kg",
-    gambar:"img/Donat-Panada.png",
-    deskripsi:"Minuman dingin dengan berbagai pilihan rasa yang cocok dinikmati saat cuaca panas.",
+    gambar:"img/Laundry.jpeg",
+    deskripsi:"Layanan laundry yang menyediakan jasa cuci dan setrika pakaian dengan hasil bersih, wangi, rapi, serta harga yang terjangkau..",
     wa:"6281355395339"
 },
 
